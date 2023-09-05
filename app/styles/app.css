@@ -1,0 +1,43 @@
+.falcon-button {
+  height: 48px;
+  background: #6a4dff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 24px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.falcon-button.primary {
+  background: #6a4dff;
+  color: #ffffff;
+}
+
+.falcon-button.primary:disabled {
+  background: #a08eff;
+  color: #ffffff;
+}
+
+.falcon-button.secondary {
+  background: #e7e7ff;
+  color: #6a4dff;
+}
+
+.falcon-button.secondary:disabled {
+  background: #e7e7ff;
+  color: #9f8df8;
+}
+
+.falcon-button.call-to-action {
+  background: #9c16a8;
+  color: #ffffff;
+}
+
+.falcon-button.call-to-action:disabled {
+  background: #995c9e;
+  color: #ffffff;
+}
